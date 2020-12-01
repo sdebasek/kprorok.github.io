@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    
+}
+
+/* Navigation bar */
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 100px 87px 0 87px;
+    font-size: 18px;
+    max-width: 1920px;
+    margin: auto;
+    z-index: 1;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul>li {
+    display: inline-block;
+    margin: 0px 38px;
+}
+
+a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+nav ul>li>a:hover {
+    color: darkgray;
+}
+
+nav ul>li>a>span {
+    font-size: 22px;
+}
+
+a.button {
+    background-color: black;
+    color: white;
+    padding: 20px 32px;
+    transition: all 0.5s ease;
+}
+
+nav a.button:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+nav ul>li:last-child {
+    margin-right: 0;
+}
+
+/* img.logo {
+    width: 10vh;
+} */
+
+
+/* Main page */
+
+div.content {
+    /* flex: 1; */
+    margin-left: 15%;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+    margin: 24px 0;
+    display: inline-block;
+}
+
+/* Slide1 */
+
+p {
+    font-size: 36px;
+    line-height: 50px;
+    max-width: 52%;
+    margin: 0 0 64px 0;
+    display: block;
+}
+
+.content a.button {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.content a.button:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+/* Slide2 Slide3 Slide4*/
+
+.slide2 {
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.slide3 {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.slide4 {
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.project-title{
+    margin: auto;
+    width: 50%;
+}
+
+.project-title a {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 36px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.project-title a:hover {
+    color:#777;
+}
+
+#project-number {
+    position: fixed;
+    left: 80px;
+    bottom: 80px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+#project-number li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #777777;
+}
+
+#project-number li a.active {
+    color: #000000;
+}
+
+#project-number ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+#project-number li {
+    padding: 12px;
+}
