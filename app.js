@@ -1,5 +1,5 @@
 new fullpage('#fullpage', {
-	licenseKey: '1E3A5954-38054238-99AF5321-ACC0F442',
+	licenseKey: 'XYZ',
 	autoScrolling:true,
 	anchors:['slide1', 'slide2', 'slide3', 'slide4'],
 	
